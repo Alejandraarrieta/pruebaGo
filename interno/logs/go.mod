@@ -1,4 +1,4 @@
-module github.com/Alejandraarrieta/pruebaGo/tree/main/interno/logs
+module github.com/Alejandraarrieta/pruebaGo/tree/main/interno/logs/logs.go
 
 go 1.17
 

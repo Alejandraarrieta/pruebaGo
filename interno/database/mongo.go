@@ -3,7 +3,7 @@ package database
 import (
 	"context"
 	"fmt"
-	"github.com/Alejandraarrieta/pruebaGo/tree/main/interno/logs"
+	"github.com/Alejandraarrieta/pruebaGo/tree/main/interno/logs/logs.go"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
