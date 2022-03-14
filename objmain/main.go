@@ -6,10 +6,10 @@ import(
 //	migration "github.com/golang-migrate/migrate/database/mysql"
 //	_ "github.com/golang-migrate/migrate/source/file"
 //	"github.com/tomiok/course-phones-review/gadgets/smartphones/web"
-"github.com/pruebaapi/general/interno/database"
-"github.com/pruebaapi/general/interno/logs"
-//	reviews "github.com/tomiok/course-phones-review/reviews/web"
-"/../web/alumno_handler.go"
+"github.com/Alejandraarrieta/pruebaGo/tree/main/interno/database"
+"github.com/Alejandraarrieta/pruebaGo/tree/main/interno/logs"
+	reviews "github.com/Alejandraarrieta/pruebaGo/tree/main/reviews/web"
+//"github.com/Alejandraarrieta/pruebaGo/tree/main/reviews/web"
 
 
 

@@ -2,9 +2,9 @@ package web
 
 import(
 	"encoding/json"
-	"github.com/pruebaapi/general/interno/database"
-	"github.com/pruebaapi/general/reviews/gateway"
-	"github.com/pruebaapi/general/reviews/models"
+	"github.com/Alejandraarrieta/pruebaGo/tree/main/interno/database"
+    "github.com/Alejandraarrieta/pruebaGo/tree/main/reviews/gateway"
+    "github.com/Alejandraarrieta/pruebaGo/tree/main/reviews/models"
 	"net/http"
 )
 

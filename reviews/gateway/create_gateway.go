@@ -1,8 +1,8 @@
 package gateway
 
 import(
-"github.com/pruebaapi/general/interno/database"
-"github.com/pruebaapi/general/reviews/models"
+	"github.com/Alejandraarrieta/pruebaGo/tree/main/interno/database"
+	"github.com/Alejandraarrieta/pruebaGo/tree/main/reviews/models"
 )
 type AlumnoGateway interface {
 	AddAlumno(obj *models.CreateAlumno) (string, error)

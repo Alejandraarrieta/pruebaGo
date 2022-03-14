@@ -4,9 +4,9 @@ package gateway
 
 import(
 	"context"
-	"github.com/pruebaapi/general/interno/database"
-	"github.com/pruebaapi/general/interno/logs"
-	"github.com/pruebaapi/general/reviews/models"
+	"github.com/Alejandraarrieta/pruebaGo/tree/main/interno/database"
+	"github.com/Alejandraarrieta/pruebaGo/tree/main/interno/logs"
+	"github.com/Alejandraarrieta/pruebaGo/tree/main/reviews/models"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"time"
 )
