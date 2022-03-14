@@ -8,8 +8,8 @@ import(
 	"net/http"
 )
 
-func (h *AlumnoHandler) AddAlumnoHandler(w http.ResponseWriter, request *http.Request) {
-	obj := params(request)
+func (h *AlumnoHandler) AddAlumnoHandler(w http.ResponseWriter, banana *http.Request) {
+	obj := params(banana)
 	res, err := h.AddAlumno(obj)
 
 	if err != nil {
