@@ -8,7 +8,8 @@ import(
 	"github.com/Alejandraarrieta/pruebaGo/interno/logs"
     "github.com/Alejandraarrieta/pruebaGo/reviews/models"
 	"go.mongodb.org/mongo-driver/bson/primitive"
-	"time"
+	"go.mongodb.org/mongo-driver/bson"
+	//"time"
 )
 
 type AlumnoStorage interface {
@@ -19,7 +20,7 @@ type AlumnoStg struct{
 	*database.Mongo
 }
 
-func (s *AlumnoStg) Add(obj *CreateAlumno) (string, error){
+func (s *AlumnoStg) Add(obj *models.CreateAlumno) (string, error){
 	coll := s.Client.Database("alumnoDB").Collection("alumnos")
 
 	res, err := coll.InsertOne(context.Background(),
