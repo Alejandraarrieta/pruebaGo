@@ -1,3 +1,3 @@
-module github.com/Alejandraarrieta/pruebaGo/tree/main/reviews/models/models.go
+module github.com/Alejandraarrieta/pruebaGo/reviews/models
 
 go 1.17

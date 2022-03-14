@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"github.com/tomiok/course-phones-review/gadgets/smartphones/web"
-	reviews "github.com/pruebaapi/general/reviews/web"
+	//"github.com/tomiok/course-phones-review/gadgets/smartphones/web"
+	"github.com/Alejandraarrieta/pruebaGo/reviews/web"
 	"net/http"
 )
 

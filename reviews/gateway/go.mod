@@ -1,3 +1,3 @@
-module github.com/Alejandraarrieta/pruebaGo/tree/main/reviews/gateway
+module github.com/Alejandraarrieta/pruebaGo/reviews/gateway
 
 go 1.17
