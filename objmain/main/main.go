@@ -10,9 +10,9 @@ import(
 //	"github.com/tomiok/course-phones-review/internal/logs"
 //	reviews "github.com/tomiok/course-phones-review/reviews/web"
 
-"github.com/pruebaapi/general/interno/database"
-"github.com/pruebaapi/general/reviews/web"
-"github.com/pruebaapi/general/interno/logs"
+"github.com/Alejandraarrieta/pruebaGo/tree/main/interno/logs"
+"github.com/Alejandraarrieta/pruebaGo/tree/main/interno/database"
+"github.com/Alejandraarrieta/pruebaGo/tree/main/reviews/web"
 
 
 )
