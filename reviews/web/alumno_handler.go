@@ -8,8 +8,8 @@ import(
 	"net/http"
 )
 
-func (h *AlumnoHandler) AddAlumnoHandler(w http.ResponseWriter, r *http.Request){
-	obj := params(r)
+func (h *AlumnoHandler) AddAlumnoHandler(w http.ResponseWriter, request *http.Request) {
+	obj := params(request)
 	res, err := h.AddAlumno(obj)
 
 	if err != nil {
@@ -27,6 +27,7 @@ func params(request *http.Request) *models.CreateAlumno{
 
 	return &obj
 }
+
 type AlumnoHandler struct{
 	gateway.AlumnoGateway
 }
