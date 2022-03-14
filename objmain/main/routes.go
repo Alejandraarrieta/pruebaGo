@@ -21,7 +21,7 @@ func Routes(
 		middleware.Recoverer, // recover if a panic occurs
 	)
 
-	mux.Post("/smartphones", sph.SaveSmartphoneHandler)
+	//mux.Post("/smartphones", sph.SaveSmartphoneHandler)
 	mux.Get("/hello", helloHandler)
 	mux.Post("/reviews", alumnoHandler.AddAlumnoHandler)
 
