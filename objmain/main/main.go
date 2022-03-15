@@ -12,16 +12,19 @@ import(
 
 "github.com/Alejandraarrieta/pruebaGo/interno/logs"
 "github.com/Alejandraarrieta/pruebaGo/interno/database"
-"github.com/Alejandraarrieta/pruebaGo/reviews/web"
+reviews "github.com/Alejandraarrieta/pruebaGo/reviews/web"
 
 
 )
 
 func main(){
 
-	mongoClient := database.NweMongoClient("localhost")
-	alumnoHandler := models.NewAlumnoHandler(mongoClient) 
+	_ = logs.InitLogger()
 
+	mongoClient := database.NewMongoClient("localhost")
+	alumnoHandler := reviews.NewAlumnoHandler(mongoClient) 
+
+	mux := Routes(alumnoHandler)
 	server := NewServer(mux)
 	server.Run()
 }

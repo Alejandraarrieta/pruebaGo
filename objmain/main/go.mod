@@ -5,6 +5,9 @@ go 1.17
 require (
 	github.com/Alejandraarrieta/pruebaGo/interno/database v0.0.0-20220314180949-692d24e91eb6 // indirect
 	github.com/Alejandraarrieta/pruebaGo/interno/logs v0.0.0-20220314180949-692d24e91eb6 // indirect
+	github.com/Alejandraarrieta/pruebaGo/reviews/gateway v0.0.0-20220314193636-d3201eafb6a9 // indirect
+	github.com/Alejandraarrieta/pruebaGo/reviews/models v0.0.0-20220314193636-d3201eafb6a9 // indirect
+	github.com/Alejandraarrieta/pruebaGo/reviews/web v0.0.0-20220314193636-d3201eafb6a9 // indirect
 	github.com/go-chi/chi v1.5.4 // indirect
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/golang/snappy v0.0.1 // indirect

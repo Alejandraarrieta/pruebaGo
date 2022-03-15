@@ -2,6 +2,12 @@ github.com/Alejandraarrieta/pruebaGo/interno/database v0.0.0-20220314180949-692d
 github.com/Alejandraarrieta/pruebaGo/interno/database v0.0.0-20220314180949-692d24e91eb6/go.mod h1:zzY/jb5DN2DPBxLL7gICbShOLHcU/qXcH/HZc0Urtm0=
 github.com/Alejandraarrieta/pruebaGo/interno/logs v0.0.0-20220314180949-692d24e91eb6 h1:rwozQzpmhlS8Ahx1KaN3TTIfs6YiwKMsjxpclyqw4qw=
 github.com/Alejandraarrieta/pruebaGo/interno/logs v0.0.0-20220314180949-692d24e91eb6/go.mod h1:WQDbmIv45LeupJ57J4wO9Au/T4XrNzjq+hvSsAVyWOc=
+github.com/Alejandraarrieta/pruebaGo/reviews/gateway v0.0.0-20220314193636-d3201eafb6a9 h1:39YelwPybhduf9zwSIsPmotWhu+lEnQq49oCrtSWQ5w=
+github.com/Alejandraarrieta/pruebaGo/reviews/gateway v0.0.0-20220314193636-d3201eafb6a9/go.mod h1:Um1tv+CD+3wyHFvt2GMUwsHf65It+kHgQsptIiUUhVk=
+github.com/Alejandraarrieta/pruebaGo/reviews/models v0.0.0-20220314193636-d3201eafb6a9 h1:nEZDcxJzH93jCEIQW+0SNPqoa69M7Mg37b2kJtcd7kE=
+github.com/Alejandraarrieta/pruebaGo/reviews/models v0.0.0-20220314193636-d3201eafb6a9/go.mod h1:WP9ys1ILAX9zIrAjdg2L0+hjIh+abYidD4bpmrdz2C0=
+github.com/Alejandraarrieta/pruebaGo/reviews/web v0.0.0-20220314193636-d3201eafb6a9 h1:du/1fod+X0E6S6V0/Ii7h1fZJ2xcOtgEZ6YmPcm6AJw=
+github.com/Alejandraarrieta/pruebaGo/reviews/web v0.0.0-20220314193636-d3201eafb6a9/go.mod h1:IwQS0I93lgRKHTRVJtTBidb7Zakv4Chh+7cqJU5T8Wg=
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

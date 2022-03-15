@@ -4,14 +4,13 @@ import (
 	"encoding/json"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	//"github.com/tomiok/course-phones-review/gadgets/smartphones/web"
-	"github.com/Alejandraarrieta/pruebaGo/reviews/web"
+	reviews "github.com/Alejandraarrieta/pruebaGo/reviews/web"
 	"net/http"
 )
 
 func Routes(
-	sph *web.CreateSmartphoneHandler,
-	reviewHandler *reviews.ReviewHandler,
+	//sph *web.CreateSmartphoneHandler,
+	alumnoHandler *reviews.AlumnoHandler,
 ) *chi.Mux {
 	mux := chi.NewMux()
 
